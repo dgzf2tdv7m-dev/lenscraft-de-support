@@ -5,33 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LensCraft DE Support</title>
   <style>
-    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #1f2937; background: #fafafa; line-height: 1.6; }
-    main { max-width: 760px; margin: 0 auto; padding: 40px 20px; }
-    h1 { font-size: 2rem; margin: 0 0 8px; }
-    section { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 20px; margin: 16px 0; }
-    ul { padding-left: 1.2rem; }
-    footer { color: #6b7280; font-size: .95rem; margin-top: 28px; }
-    a { color: #2563eb; }
+    :root {
+      color-scheme: light;
+      --ink: #202124;
+      --muted: #667085;
+      --line: #dde3ea;
+      --paper: #fbfcfd;
+      --accent: #2457a6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: var(--ink);
+      background: var(--paper);
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 24px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 36px 0 10px;
+      font-size: 1.15rem;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 16px; }
+    ul {
+      margin: 0 0 18px;
+      padding-left: 22px;
+    }
+    .lede {
+      color: var(--muted);
+      font-size: 1.05rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
   <main>
     <h1>LensCraft DE Support</h1>
-    <p>Zuletzt aktualisiert: 2026-06-17</p>
-    <section>
-      <h2>Ueber diese App</h2>
-      <p>LensCraft DE ist eine App eines unabhaengigen Entwicklers fuer den deutschen Markt.</p>
-    </section>
-    <section>
-      <h2>Support</h2>
-      <p>Bei Fragen, Fehlermeldungen oder Feedback kontaktieren Sie bitte:</p>
-      <p><a href="mailto:support@ethanqifeng.com">support@ethanqifeng.com</a></p>
-    </section>
-    <section>
-      <h2>Antwort</h2>
-      <p>Support-Anfragen werden vom unabhaengigen Entwickler geprueft. Bitte nennen Sie den App-Namen, das Geraetemodell, die iOS-Version und eine kurze Beschreibung des Problems.</p>
-    </section>
-    <footer>LensCraft DE ist eine unabhaengige Entwickler-App.</footer>
+    <p class="lede">Hilfe fuer LensCraft DE. Zuletzt aktualisiert: 17. Juni 2026.</p>
+
+    <p>Bei Fragen, Fehlermeldungen oder Feedback zu LensCraft DE erreichen Sie den Support unter <a href="mailto:support@ethanqifeng.com">support@ethanqifeng.com</a>.</p>
+
+    <h2>Bitte angeben</h2>
+    <ul>
+      <li>Ihr iPhone- oder iPad-Modell.</li>
+      <li>Die verwendete iOS-Version.</li>
+      <li>Eine kurze Beschreibung des Problems.</li>
+      <li>Falls moeglich, Schritte, mit denen das Problem erneut auftritt.</li>
+    </ul>
+
+    <h2>Daten und Wiederherstellung</h2>
+    <p>LensCraft DE speichert App-Daten lokal auf Ihrem Geraet. Pruefen Sie daher Ihre iOS-Geraetebackups, bevor Sie die App entfernen oder ein Geraet loeschen.</p>
+
+    <h2>App-Nutzung</h2>
+    <p>LensCraft DE ist ein unabhaengiges Offline-Werkzeug fuer lokale Bild- und Vorlagenarbeit. Die App ersetzt keine professionelle Beratung, kein amtliches Dokument und keine externe Datensicherung.</p>
+
+    <footer>LensCraft DE - Support</footer>
   </main>
 </body>
 </html>
